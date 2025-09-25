@@ -1,0 +1,35 @@
+Tercera Prueba: Dos robots en la misma ruta con interacciones
+
+Crear una ruta de 6 posiciones.
+
+Colocar una tienda en la posición 2 con 4 tenges.
+
+Colocar el Robot A en la posición 0.
+
+Colocar el Robot B en la posición 1.
+
+Mover el Robot A 2 posiciones.
+
+Resultado esperado:
+
+El Robot A llega a la tienda en la posición 2 y recoge los 4 tenges.
+
+El Robot B se mantiene en la posición 1, sin cambios.
+
+Cuarta Prueba: Robot intenta recoger de una tienda vacía
+
+Crear una ruta de 8 posiciones.
+
+Colocar una tienda en la posición 5 con 0 tenges (vacía desde el inicio).
+
+Colocar un robot en la posición 2.
+
+Mover el robot 3 posiciones.
+
+Resultado esperado:
+
+El robot llega a la posición 5, pero no recoge nada (porque la tienda está vacía).
+
+El método profit() no cambia.
+
+La tienda en la posición 5 aparece desde el inicio en emptiedStores().
